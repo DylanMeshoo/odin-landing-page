@@ -98,22 +98,18 @@ body {
     align-self: center;
 }
 
-#section2-boxes {
-    display: flex;
-    gap: 100px;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.section2-box {
-    border: 5px solid;
-    border-color: #3882f6;
-    border-radius: 10px;
-}
-
-.section2-box-img {
+.section2-img {
     width: 150px;
     border-radius: 4px;
     display: flex;
+    border: 5px solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+}
+
+#section2-boxes {
+    display: flex;
+    margin-top: 10px;
+    gap: 25px;
+    justify-content: center;
 }
